@@ -1,6 +1,5 @@
 var request = require('request');
 
-
 module.exports = function (location, callback) {
     var loc = encodeURIComponent(location);
     var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + loc + ',&units=metric&APPID=39ffaf86bb4b4a372cb112fa56c88c68';
